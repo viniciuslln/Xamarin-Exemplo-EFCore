@@ -12,6 +12,15 @@ Foi modificado o app do templade Shell padrão do Visual Studio 2019 alterando o
 # Conclusões
 
 Nova versão do EFCore funcionou como uma solução “Out of the box”, não foi necessário nenhuma configuração especial para funcionar, entretando foi observado maior demora na inicialização do app;
+O pacote se mostrou linker safe e o app não apresentou crashes mesmo com d8/r8 e linker (Sdk Assemblies only) ativados;
+
+
+Comparativo de tamanho final no apk em modo Release com linker (Sdk Assemblies only) ativado:
+|            | Tamanho |
+|------------|---------|
+| Sem EFCore | 12MB    |
+| Com EFcore | 19Mb    |
+
 
 # Futuras implementações e testes
 
