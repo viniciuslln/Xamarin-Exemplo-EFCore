@@ -15,7 +15,7 @@ Nova versão do EFCore funcionou como uma solução “Out of the box”, não f
 
 # Futuras implementações e testes
 
-[] Acesso ao DbContext via injeção de de dependência
-[] Modelo com relacioinamentos
-[] Migrations
-[] Coonfigurações de Modelos complexos
+- [ ] Acesso ao DbContext via injeção de de dependência
+- [ ] Modelo com relacioinamentos
+- [ ] Migrations
+- [ ] Configurações de Modelos complexos
